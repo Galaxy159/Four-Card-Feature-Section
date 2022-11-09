@@ -21,14 +21,66 @@
     <title>Frontend Mentor | Four card feature section</title>
   </head>
   <body>
-    Reliable, efficient delivery Powered by Technology Our Artificial
-    Intelligence powered tools use millions of project data points to ensure
-    that your project is successful Supervisor Monitors activity to identify
-    project roadblocks Team Builder Scans our talent network to create the
-    optimal team for your project Karma Regularly evaluates our talent to ensure
-    quality Calculator Uses data from past projects to provide better delivery
-    estimates
-
+    <div class="container">
+      <header class="header">
+        <h1 class="header__headline">
+          Reliable, efficient delivery<br /><span>Powered by Technology</span>
+        </h1>
+        <p class="header__text">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </header>
+      <section class="features">
+        <div class="feature__card">
+          <h2 class="feature__card--headline">Supervisor</h2>
+          <p class="feature__card--text">
+            Monitors activity to identify project roadblocks
+          </p>
+          <img
+            src="./images/icon-supervisor.svg"
+            alt="Magnifying glass"
+            class="feature__card--img"
+          />
+        </div>
+        <div class="feature__container">
+          <div class="feature__card">
+            <h2 class="feature__card--headline">Team Builder</h2>
+            <p class="feature__card--text">
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <img
+              src="./images/icon-team-builder.svg"
+              alt="House"
+              class="feature__card--img"
+            />
+          </div>
+          <div class="feature__card">
+            <h2 class="feature__card--headline">Karma</h2>
+            <p class="feature__card--text">
+              Regularly evaluates our talent to ensure quality
+            </p>
+            <img
+              src="./images/icon-karma.svg"
+              alt="Bulb"
+              class="feature__card--img"
+            />
+          </div>
+        </div>
+        <div class="feature__card">
+          <h2 class="feature__card--headline">Calculator</h2>
+          <p class="feature__card--text">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <img
+            src="./images/icon-calculator.svg"
+            alt="Monitor"
+            class="feature__card--img"
+          />
+        </div>
+      </section>
+    </div>
     <footer>
       <p class="attribution">
         Challenge by
